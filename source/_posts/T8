@@ -14,16 +14,21 @@ Problems will be published on the Hackerrank website to submit your solution to 
   - Read and solve the problem and submit your solution there.
   - If you have doubts regarding the problem or you got stuck, you can contact the mentor assigned to you.
 
-## Problem Of The Day ( Max The Power )
+## Problem Of The Day ( Help the Heavens! )
+Lucifer was very bored in hell so he decided to trouble the angels. He encrypted the manual on how to cast out demons. This data is very crucial in winning the war against the demons. Uriel the archangel decides to take the matter in his own hands. He knows that Lucifer would have used the most famous method of encryption in Hell, in which data is encrypted using xor operation. The data is xored with the key to produce an encrypted data. But to make life difficult Lucifer has he also added a few illegal values. Those illegal encrypted values have length greater than 999999. Help Uriel by writing a program to decrypt the data.
 
-Given a binary number (of N bits) X. Find the highest power of 2 that divides this number.
-Note: If the binary number is "100" then the highest power of 2 that divides it is 2 (as 2^2 = 4 ) 
+Input Format
 
-  - Input Format:
-    - The first line contains N the number of bits in the number
-    - The next line contains a binary number of N bits
-  - Ouput Format:
-    - The first and only line contains the max power of 2 that divides the given number.
+The first line contains a single integer T denoting the number of test cases
+The next T lines contain 2 integers E, K where is the encrypted data and key respectively, both are integers.
+Constraints
+
+1<=T<=10
+1<=E,K<=10000000
+Output Format
+
+Every test case requires a single integer output corresponding to the decrypted data
+Return -1 as output for illegal encypted values
     
 Link for the problem : https://www.hackerrank.com/problem-of-the-day-week-2
 
